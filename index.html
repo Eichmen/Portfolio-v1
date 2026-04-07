@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      height: 100vh;
+      background-color: #111;
+      padding-top: 20px;
+      position: fixed;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #00ff88;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #333;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2 style="color:white; text-align:center;">Amy</h2>
+    <a href="/">Home</a>
+    <a href="/about/">About Me</a>
+    <a href="/projects/">Projects</a>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+</body>
+</html>
