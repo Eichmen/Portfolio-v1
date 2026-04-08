@@ -164,4 +164,49 @@ nav {
     display: flex;
     gap: var(--spacing-s);
 }
+.nav-links li a {
+    color: var(--text-secondary);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    position: relative;
+}
+.nav-links li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--accent-color);
+    transition: var(--transition);
+}
+
+.nav-links li a:hover {
+    color: var(--text-primary);
+}
+
+.nav-links li a:hover::before {
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 2px;
+    background-color: var(--text-primary);
+    margin: 6px 0;
+    transition: var(--transition);
+}
+
+/* Header scroll state */
+.header-scroll {
+    background-color: var(--secondary-dark);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 
