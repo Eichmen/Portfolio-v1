@@ -39,7 +39,7 @@
     --transition: all 0.3s ease;
     --box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);
     --container-max-width: 1200px;
-    --glow-effect: 0 0 10px rgba(0, 238, 255, 0.7);
+    --glow-effect:
 }
 /* ====================
    Reset & Base Styles
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: var(--fs-xl);
-    background: linear-gradient(45deg, var(--primary), var(--accent-color));
+    background: linear-gradient(45deg, var(--text-primary), var(--accent-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
