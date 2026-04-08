@@ -42,6 +42,29 @@ html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
 }
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 8px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: var(--spacing-s);
+    line-height: 1.2;
+    font-weight: 700;
+}
+h2 {
+    font-size: var(--fs-l);
+}
+h3 {
+    font-size: var(--fs-m);
+}
+
+p {
+    margin-bottom: var(--spacing-s);
+}
+
 
 
