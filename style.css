@@ -1,1 +1,30 @@
+/* ====================
+   Variables & Colors
+   ==================== */
+: root { 
+
+  
+     /* Typography */
+    --font-family: 'Poppins', sans-serif;
+    --fs-xl: 3.5rem;
+    --fs-l: 2.5rem;
+    --fs-m: 1.5rem;
+    --fs-s: 1.125rem;
+    --fs-xs: 0.875rem;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-s: 1rem;
+    --spacing-m: 2rem;
+    --spacing-l: 3rem;
+    --spacing-xl: 5rem;
+
+    /* Other */
+    --border-radius: 0.5rem;
+    --transition: all 0.3s ease;
+    --box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);
+    --container-max-width: 1200px;
+    --glow-effect: 0 0 10px rgba(0, 238, 255, 0.7);
+}
+
 
