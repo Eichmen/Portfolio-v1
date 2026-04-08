@@ -162,7 +162,7 @@ button, .btn {
 
 .primary-btn {
     background-color: var(--accent-color);
-    color: var(--primary-dark);
+    color: var(--primary);
     box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
 }
 
@@ -297,6 +297,204 @@ nav {
     background-size: 40px 40px;
     z-index: 1;
 }
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-l);
+    position: relative;
+    z-index: 2;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.hero-text h2 {
+    font-size: var(--fs-m);
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: var(--spacing-s);
+}
+
+.hero-text p {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-m);
+    max-width: 600px;
+}
+
+.cta-buttons {
+    margin-bottom: var(--spacing-m);
+}
+
+.social-icons {
+    display: flex;
+    gap: var(--spacing-s);
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--tertiary);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px var(--accent-color);
+}
+
+.social-icons i {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover i {
+    color: var(--primary);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.security-graphic {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shield {
+    position: relative;
+    font-size: 8rem;
+    color: var(--accent-color);
+    animation: pulse 2s infinite;
+    text-shadow: 0 0 15px var(--accent-color), 0 0 30px var(--accent-color);
+}
+
+.ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    animation: ripple 2s linear infinite;
+}
+
+.binary {
+    position: absolute;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    opacity: 0.8;
+    transform: rotate(-30deg);
+    bottom: 50px;
+    right: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        text-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        text-shadow: 0 0 20px rgba(0, 238, 255, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        text-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.8;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+/* ====================
+   About Section
+   ==================== */
+.about {
+    background-color: var(--secondary);
+    padding: var(--spacing-xl) 0;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: var(--spacing-l);
+    align-items: center;
+}
+
+.about-text p {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-s);
+}
+
+.contact-info {
+    background-color: var(--tertiary);
+    padding: var(--spacing-m);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-s);
+}
+
+.contact-item i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-right: var(--spacing-s);
+    width: 20px;
+}
+
+.contact-item span {
+    color: var(--text-secondary);
+}
+
+/* ====================
+   Skills Section
+   ==================== */
+.skills {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--primary);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-l);
+}
+
 
 
 
