@@ -2,6 +2,15 @@
    Variables & Colors
    ==================== */
 :root { 
+    /* Color Scheme - More fit to be simple*/
+   --primary: #e0e0e0;
+   --secondary:
+   --tertiary: 
+   --accent-color:
+   --accent-hover:
+   --accent-color-2:
+   --accent-color-3:
+   --text-primary:
 
   
      /* Typography */
@@ -45,6 +54,7 @@ html {
 body {
     font-family: var(--font-family);
     line-height: 1.6;
+    background-color: var(--primary);
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
