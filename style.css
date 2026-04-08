@@ -3,10 +3,10 @@
    ==================== */
 :root { 
     /* Color Scheme - More fit to be simple*/
-   --primary: #23231A;
-   --secondary:
+   --primary: #23231a; /* carbon black background color */
+   --secondary: 
    --tertiary: 
-   --accent-color: #333333;
+   --accent-color: #f4b860; /* Honey Bronze */
    --accent-hover:
    --accent-color-2:
    --accent-color-3:
