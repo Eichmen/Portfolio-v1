@@ -155,4 +155,13 @@ nav {
     display: flex;
     align-items: center;
 }
+.logo span {
+    color: var(--accent-color);
+    font-weight: 800;
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-s);
+}
 
