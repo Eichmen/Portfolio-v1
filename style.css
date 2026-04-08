@@ -3,7 +3,7 @@
    ==================== */
 :root {
     /* Color Scheme - Updated to be more cyberpunk */
-    --primary-dark: #0a0a0a; /* True black background */
+    --primary-dark: #000000; /* True black background */
     --secondary-dark: #0a0a0a; /* Very dark, almost black */
     --tertiary-dark: #101010; /* Slightly lighter dark */
     --accent-color: #00eeff; /* Bright cyan/blue */
