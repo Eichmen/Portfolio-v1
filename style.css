@@ -38,7 +38,7 @@
     --transition: all 0.3s ease;
     --box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);
     --container-max-width: 1200px;
-    --glow-effect: 0 0 10px rgba(0, 238, 255, 0.7);
+    --glow-effect: 0 0 10px rgba(255, 179, 67, 0.7);
 }
 /* ====================
    Reset & Base Styles
