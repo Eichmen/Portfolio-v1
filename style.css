@@ -3,17 +3,17 @@
    ==================== */
 :root { 
     /* Color Scheme - More fit to be simple*/
-   --primary: #ffffff;
-   --secondary: #b4a6ab;
+   --primary: #000000;
+   --secondary: #101010;
    --tertiary: #cdd5d1;
-   --accent-color: #00ff66;
+   --accent-color: #00eeff;
    --accent-hover:
    --accent-color-2:
    --accent-color-3:
    --text-primary: #ffffff;
    --text-secondary:
-   --text-muted:
-   --border-color:
+   --text-muted: #8b949e;
+   --border-color: #333333;
     --success-color: #00ff66; /* Same as accent-color-2 */
     --warning-color: #f0e100; /* Bright yellow */
     --error-color: #ff0055; /* Bright red */
@@ -39,7 +39,7 @@
     --transition: all 0.3s ease;
     --box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);
     --container-max-width: 1200px;
-    --glow-effect:
+    --glow-effect: 0 0 10px rgba(0, 238, 255, 0.7);
 }
 /* ====================
    Reset & Base Styles
