@@ -447,6 +447,18 @@ nav {
     }
 }
 
+@keyframes moveGlow {
+    0% {
+        background-position: 10% 20%;
+    }
+    50% {
+        background-position: 80% 30%;
+    }
+    100% {
+        background-position: 10% 20%;
+    }
+}
+
 /* ====================
    About Section
    ==================== */
