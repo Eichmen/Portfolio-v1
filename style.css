@@ -288,7 +288,7 @@ nav {
     display: flex;
     align-items: center;
     padding-top: 80px;
-    background: #000; 
+    background:radial-gradient(circle at 20% 30%, rgba(255,255,255,0.04), #0b0f14 70%);
     position: relative;
     overflow: hidden;
 }
