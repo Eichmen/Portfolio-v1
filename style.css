@@ -677,6 +677,25 @@ nav {
     font-weight: 500;
 }
 
+.wave-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+.wave-divider svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.wave-divider path {
+    fill: #111827; /* match your NEXT section background */
+}
+
+
 /* ====================
    Timeline Styles (for Experience and Education)
    ==================== */
